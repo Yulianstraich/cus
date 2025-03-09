@@ -1,0 +1,118 @@
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active{
+  color: #D1A758;
+  background-color: white;
+  border-color: #D1A758;
+}
+
+.gx_ev{
+	display: none;
+}
+
+@media(max-width: 1299px){
+  .ImageConvertidor {
+    padding-top: 0 !important;
+  }
+}
+
+@media(max-width: 1199px){
+  .TableCell35x100H{
+    width: 100%;
+  }
+
+  .Popup100x100H, .Form100x100H .gx-popup.gx-popup-default {
+    height: 70%;
+    width: 101%;
+    overflow: auto;
+  }
+
+  .TableRowSinM10P4 {
+    height: 35%;
+  }
+
+  .Table100x100H{
+    min-height: 100%;
+    height: 100%;
+  }
+
+  .TableCell35x100HFondo{
+    width: 100% !important;
+    background-size: 100%;    
+    -moz-background-size: 100%;  
+    -o-background-size: 100%;   
+    -webkit-background-size: 100%;  
+    -khtml-background-size: 100%;  
+  }
+
+  .ImageConvertidor {
+    padding-top: 20%;
+  }
+
+}
+
+@media(max-width: 1024px){
+  .TableCell35x100H{
+    width: 100%;
+  }
+
+  .Popup100x100H, .Form100x100H .gx-popup.gx-popup-default {
+    height: 70%;
+    width: 101%;
+    overflow: auto;
+  }
+
+  .TableRowSinM10P4 {
+    height: 25%;
+  }
+
+  .Table100x100H{
+    min-height: 100%;
+    height: 100%;
+  }
+
+  .TextBlockTituloTasaDolar{
+    display: none;
+  }
+}
+
+@media(min-width: 385px) and (max-width: 415px){
+   .TextBlockCrearUsuario{
+     margin-left: 7% !important;
+   }
+   .TextBlockRecuperarUsuario {
+     margin-left: 51%;
+   }
+}
+
+@media(min-width: 81px) and (max-width: 384px){
+   .TextBlockCrearUsuario{
+     margin-left: 1% !important;
+   }
+   .TextBlockRecuperarUsuario {
+     margin-left: 51%;
+   }
+ /*  .TextBlockRecuperarContrasena{
+     margin-right: 63px !important;
+   }
+   .imageSeguridad{
+     width: 100% !important;
+     margin-left: 115% !important;
+   }
+   .ImagePassword{
+     display: none !important;
+   }*/
+}
+
+
+
+@media(max-width: 590px){
+  .TableRowSinM10P4 {
+    height: 25%;
+  }
+}
+
+.TextBlockRecuperarUsuario> a{
+ color: #2C85BC  !important;  
+}
+
+.TextBlockCrearUsuario> a{
+ color: #D6AC50  !important;  
